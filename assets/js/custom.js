@@ -9,6 +9,7 @@ $(document).ready(function () {
     ==============================================
     *========== TABLE OF CONTENTS ================
 
+        0.0 Current Year
         0.1  Reveloution Slider
         0.2  Fixed Top Navbar Js
         0.3  scrolltop js
@@ -26,6 +27,13 @@ $(document).ready(function () {
         015 Comment-btn Js
 
     ========================================*/
+
+    /*--------------------------------
+	 	0.0 Current Year
+	----------------------------------*/
+
+  document.getElementById("year").textContent = new Date().getFullYear();
+
     /*--------------------------------
 	 	1. Reveloution Slider
 	----------------------------------*/
